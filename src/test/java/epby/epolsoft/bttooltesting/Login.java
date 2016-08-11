@@ -23,7 +23,7 @@ public class Login extends epby.epolsoft.bttooltesting.TestBase {
     driver.findElement(By.id("login_field")).clear();
     driver.findElement(By.id("login_field")).sendKeys("xchuart@gmail.com");
     driver.findElement(By.id("password")).clear();
-    driver.findElement(By.id("password")).sendKeys("ghjcnjq2312891");
+    driver.findElement(By.id("password")).sendKeys("ghjcnjq231289");
     driver.findElement(By.name("commit")).click();
   }
 
